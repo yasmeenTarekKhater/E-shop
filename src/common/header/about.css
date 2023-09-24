@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sectionn{
+    width: 100%;
+}
+.sectionn .containerr{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.containerr .titlee{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.containerr .titlee h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #e94560;
+}
+.containerr .titlee h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color:  #e94560;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+
+}
+.contenttt{
+    float: left;
+    width: 55%;
+}
+.image-sectionnn{
+    float: right;
+    width: 40%;
+}
+.image-sectionnn img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.contenttt .articaleee h3{
+    color: #a3a3a3;
+    font-size: 17px;
+    margin-top: 60px;
+    text-align: left;
+
+}
+.contenttt .articaleee p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+}
+.contenttt .articaleee .buttonnn{
+    margin-top: 50px;
+    
+}
+.contenttt .articaleee .buttonnn a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #e94560;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.contenttt .articaleee .buttonnn a:hover{
+    color: #fff;
+    background-color: gray;
+    transition: 1s ease;
+}
+.containerr .scoiall{
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.containerr .scoiall i{
+    color: #fff;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #e94560;
+    margin: 0px 5px;
+}
+.containerr .scoiall i:hover{
+    color: #fff;
+    background-color: gray;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+@media screen and (max-width:768px){
+    .sectionn .containerr{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+  } 
+  .contenttt{
+    float: none;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .image-sectionnn{
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .image-sectionnn img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .containerr .titlee h1{
+    text-align: center;
+    font-size: 30px;
+
+  }
+  .contenttt .articaleee .buttonnn{
+    text-align: center;
+  }
+  .contenttt .articaleee .buttonnn a{
+    padding: 6px 15px;
+    font-size: 16px;
+  }
+  .containerr .scoiall i{
+    font-size: 19px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}/*******************************************************/
+.team-sectionn{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.team-sectionn .containerrr{
+    width: 80%;
+    margin: auto;
+}
+.team-sectionn .containerrr .row{
+    width: 60%;
+    margin: auto; 
+}
+.team-sectionn .containerrr .row .titleee{
+    text-align: center;
+    margin-top: 50px;
+}
+.team-sectionn .containerrr .row .titleee h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #e94560 ;
+}
+.team-sectionn .containerrr .row .titleee h1::after{
+            content: "";
+            height: 5px;
+            width: 100px;
+            background-color:  #e94560;
+            border-radius: 25px;
+            display: block;
+            margin: auto;
+        }
+.team-sectionn .containerrr .row .titleee p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color:#a3a3a3 ;
+}
+.team-sectionn .containerrr .team-cardd{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.team-sectionn .containerrr .team-cardd .carddd{
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+.team-sectionn .containerrr .team-cardd .carddd:hover{
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+.team-sectionn .containerrr .team-cardd .carddd .imagge-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+
+}
+.team-sectionn .containerrr .team-cardd .carddd .conntent{
+    width: 100%;
+    text-align: center;
+
+}
+.team-sectionn .containerrr .team-cardd .carddd .conntent h3{
+    
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #e94560;
+}
+.team-sectionn .containerrr .team-cardd .carddd .conntent h4{
+    
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #6e6e6e;
+}
+.team-sectionn .containerrr .team-cardd .carddd .conntent p{
+    
+    font-size: 15px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: #6c6c6c;
+}
+@media screen and (max-width:900px){
+    .team-sectionn .containerrr .team-cardd{
+        
+        grid-template-columns: repeat(2,1fr);
+        
+       
+    }
+}
+@media screen and (max-width:768px){
+    .team-sectionn .containerrr .team-cardd{
+        
+        grid-template-columns: 1fr;
+        
+       
+    }
+}

@@ -1,0 +1,28 @@
+.NewArrivals span {
+    color: #e94560;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+.NewArrivals .product img {
+  min-width: 100px;
+}
+.NewArrivals .adding i{
+  color: #e94560;
+  border: #e94560 solid 2px;
+  transition: all 0.5s;
+}
+.NewArrivals .adding i:hover{
+  background-color: #e94560;
+  color: white;
+}
+.P-image > i {
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #e94560;
+  color: #fff;
+}
+.P-image i:hover{
+  background-color: #fff;
+  color: #e94560;
+}

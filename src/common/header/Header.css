@@ -1,0 +1,9 @@
+.Header{
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+}
+.cart-icon{
+  transition: 0.2s;
+}
+.cart-icon:hover{
+  color: #dc3545;
+}
